@@ -1,0 +1,15 @@
+Traceback (most recent call last):
+  File "run.py", line 31, in <module>
+    http_server.listen(options.port)
+  File "/home/tpc/py36/lib/python3.6/site-packages/tornado/tcpserver.py", line 143, in listen
+    sockets = bind_sockets(port, address=address)
+  File "/home/tpc/py36/lib/python3.6/site-packages/tornado/netutil.py", line 168, in bind_sockets
+    sock.bind(sockaddr)
+OSError: [Errno 98] Address already in use
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "run.py", line 35, in <module>
+    logging.error(e)
+NameError: name 'logging' is not defined
